@@ -1,0 +1,55 @@
+# Flutter build outputs and caches
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# iOS build artifacts (Keep essential files, remove unnecessary ones)
+ios/Flutter/.last_build_id
+ios/Runner.xcworkspace/
+
+# Android build artifacts (Keep essential files, remove unnecessary ones)
+android/local.properties
+android/app/.cxx/
+
+# IDEs and Editors
+*.iml
+.idea/
+
+# macOS specific
+.DS_Store
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# 🔥 Firebase-Specific Files (DO NOT PUSH THESE)
+**/firebase_service_account.json
+**/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+**/android/app/google-services.json
+
+# 🔑 Secrets & Credentials (Avoid exposing sensitive files)
+*.key
+*.pem
+*.p12
+*.crt
+*.env
+
+# 🔥 Firebase Emulator Data (Exclude if using Firebase Emulator)
+firebase-debug.log
+.firestore/
+
+assets/
